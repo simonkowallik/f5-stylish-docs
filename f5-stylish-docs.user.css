@@ -1,11 +1,11 @@
 @-moz-document domain("techdocs.f5.com"), domain("clouddocs.f5.com"), domain("support.f5.com"), domain("cdn.f5.com") {
   /* ==UserStyle==
-  @name         Stylish F5 Support Clouddocs Techdocs site
+  @name         Stylish F5 online docs
   @namespace    https://github.com/simonkowallik/f5-stylish-docs
   @homepageURL  https://github.com/simonkowallik/f5-stylish-docs
   @updateURL    https://raw.githubusercontent.com/simonkowallik/f5-stylish-docs/main/f5-stylish-docs.user.css
   @preprocessor default
-  @version      1.0.0
+  @version      1.0.1
   @license      MIT
   @description  Better readability for KB articles and docs
   @author       github@simonkowallik.com

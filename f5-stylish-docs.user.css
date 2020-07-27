@@ -1,0 +1,57 @@
+@-moz-document domain("techdocs.f5.com"), domain("clouddocs.f5.com"), domain("support.f5.com"), domain("cdn.f5.com") {
+/* ------ if import doesn't work, cut&paste between this block ------ */
+  /* ==UserStyle==
+  @name         Stylish F5 Support Clouddocs Techdocs site
+  @namespace    https://github.com/simonkowallik/f5-stylish-docs
+  @homepageURL  https://github.com/simonkowallik/f5-stylish-docs
+  @updateURL    https://raw.githubusercontent.com/simonkowallik/f5-stylish-docs/master/f5-stylish-docs.user.css
+  @preprocessor default
+  @version      1.0.0
+  @license      MIT
+  @description  Better readability for KB articles and docs
+  @author       github@simonkowallik.com
+  ==/UserStyle== */
+
+  @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
+  body {
+      font-family: 'Recursive', sans-serif;
+  }
+  .tocitem .subentry,
+  .toccontainer .headentry a,
+  .toccontainer .tocentry a {
+      font-family: 'Recursive', sans-serif;
+  }
+  .dlterm,
+  .topictitle3 {
+      margin-top: 1em;
+  }
+  .important,
+  .note {
+      background-color: #ffeee3;
+      font-style: normal;
+  }
+  .importanttitle, .notetitle {
+      font-weight: bold !important;
+      color: blue !important;
+  }
+  code,
+  kbd,
+  pre,
+  samp,
+  .filepath {
+      font-family: 'Roboto Mono', Consolas, "Courier New", monospace;
+      font-weight: 400;
+  }
+  /* clouddocs specific */
+  .docutils {
+      font-family: 'Roboto Mono', Consolas, "Courier New", monospace;
+      font-weight: 400;
+      font-size: 90%;
+  }
+  .nav-sidebartoc {
+      font-family: 'Recursive', sans-serif;
+  }
+/* ------ if import doesn't work, cut&paste between this block ------ */
+}

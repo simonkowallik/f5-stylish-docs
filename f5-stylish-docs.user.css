@@ -8,7 +8,7 @@ domain("cdn.f5.com") {
     @homepageURL  https://github.com/simonkowallik/f5-stylish-docs
     @updateURL    https://raw.githubusercontent.com/simonkowallik/f5-stylish-docs/main/f5-stylish-docs.user.css
     @preprocessor default
-    @version      1.2.0
+    @version      1.3.0
     @license      MIT
     @description  Better readability for KB articles and docs
     @author       github@simonkowallik.com
@@ -173,6 +173,8 @@ domain("cdn.f5.com") {
   .toccontainer .tocentry a {
     font-family: var(--stylish-docs-text-font);
     font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   .dlterm,
@@ -188,9 +190,11 @@ domain("cdn.f5.com") {
   .article-container .important {
     padding: 1.5px;
     background-color: rgba(255, 50, 0, 0.1);
-    font-style: normal;
     font-family: var(--stylish-docs-text-font);
     font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   .importanttitle,
@@ -207,10 +211,12 @@ domain("cdn.f5.com") {
   .article-container .example,
   .article-container .example2,
   .article-container pre {
+    padding: 2.5px;
+    background-color: rgba(100, 100, 100, 0.1);
     font-family: var(--stylish-docs-mono-font);
     font-weight: normal;
-    background-color: rgba(100, 100, 100, 0.1);
-    padding: 2.5px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   /* clouddocs specific */
@@ -218,5 +224,7 @@ domain("cdn.f5.com") {
     font-family: var(--stylish-docs-mono-font);
     font-weight: normal;
     font-size: 90%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
